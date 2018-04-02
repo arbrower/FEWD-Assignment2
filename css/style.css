@@ -44,10 +44,155 @@ body {
   height: 500px;
 }
 
-header {}
+header {
+  color: white;
+  font-family: 'Open Sans', sans-serif; 
+  font-weight: 800px;
+  font-size: 24px;
+  margin-left: 50px;
+  
 
-footer {}
+}
+
+footer {
+  background-color: #121212;
+  padding: 20px;
+  border-left:2px solid  #f0efef;
+  border-right: 2px solid  #f0efef;
+  border-bottom: 2px solid  #f0efef;
+}
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+body {
+  border: 2px solid white;
+}
+
+.hero {
+  text-align: center;
+
+}
+
+.superman {
+  color:#f0efef;
+  font-size: 25px;
+  font-weight: 600px;
+  margin: 50px 50px 65px 50px;
+}
+
+.heropress {
+  background-color: #f9e42e;
+  border: #f9e42e;
+  color: #033048;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 800px;
+  border-radius:5px;
+  padding: 8px 40px;
+  margin: 0px 0px 150px;
+}
+
+.benefits {
+  background-color: #f0efef;
+  color:#606161;
+  font-size: 13px;
+  font-weight: 300px;
+  padding: 50px;
+}
+
+.benefits h2 {
+  color:#033048;
+  font-size: 20px;
+  font-weight: 600px;
+}
+
+/* how do i target */
+.benefits p ul ol {
+  width: 320px;
+}
+
+.batman {
+  width: 320px;
+}
+
+.robbin {
+  width: 300px;
+}
+
+.catwomen {
+  color:#606161;
+  border-left:2px solid  #f0efef;
+  border-right: 2px solid  #f0efef;
+  text-align: center;
+  padding: 40px 200px 40px;
+  background: url(../images/testimonial_bg.jpg) no-repeat center top;
+  background-size: cover;
+}
+
+/* need to add the light italic */
+.catwomen p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 300px;
+}
+
+
+.catwomen span {
+  display: block;
+  color: #f0efef;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 600px;
+}
+
+.joker {
+  border-left:2px solid  #f0efef;
+  border-right: 2px solid  #f0efef;
+  background-color: #f9e42e;
+  text-align: center;
+  padding: 15px;
+}
+
+.jokerpress {
+  background-color: #033048;
+  border: #033048;
+  color: #f0efef;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 800px;
+  border-radius: 5px;
+  padding: 8px 30px;
+}
+
+.penguin {
+  color:  #f0efef;
+  text-align: center;
+  margin-top: 0px;
+}
+
+.penguin h2 {
+  color: #f9e42e;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 800px;
+}
+
+.penguin p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 9px;
+  font-weight: 600px;
+}
+
+.penguin img {
+  width: 18px;
+  height: 18px;
+  margin: 10px 10px 35px;
+}
+
+/* Question:
+1. I had difficulty applying the specifci font styles. i.e. applying semi-bold was not 
+just writing semi-bold, but finding the font-weight. Is their an easier way to do this? 
+2. How do change the size of images while maintaining the appropriate height/width?*/
